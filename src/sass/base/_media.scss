@@ -115,6 +115,23 @@
       text-align: center;
     }
   }
+  .consultation {
+    .title_left {
+      font-size: 2rem;
+    }
+    &__descr {
+      font-size: 1rem;
+    }
+    &__block {
+      width: 60%;
+    }
+    .feed-form {
+      margin-top: 36px;
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+  }
+
 
 
 }
@@ -207,3 +224,4 @@
 
 
 
+}
