@@ -65,13 +65,13 @@ $(document).ready(function () {
             },
             messages: {
                 name: {
-                    required: "Пожалуйста, введите свое имя",
+                    required: "your name",
                     minlength: jQuery.validator.format("Введите {0} символа!")
                 },
-                phone: "Пожалуйста, введите свой номер телефона",
+                phone: "your phone",
                 email: {
-                    required: "Пожалуйста, введите свою почту",
-                    email: "Неправильно введен адрес почты"
+                    required: "your email",
+                    email: "incorect"
                 }
             }
         });
