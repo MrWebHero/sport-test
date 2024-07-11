@@ -6,9 +6,9 @@
 //   display: none;
 // }
 
-.feed {
-  display: none;
-}
+// .feed {
+//   display: none;
+// }
 
 .footer {
   display: none;
@@ -161,6 +161,13 @@
     &__tab {
       width: 25%;
       font-size: 50%;
+    }
+  }
+  .feed {
+    width: 100%;
+    .feed__item {
+      min-width: 30rem;
+      width: 50%;
     }
   }
 
