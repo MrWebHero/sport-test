@@ -5,6 +5,7 @@
 @import 'base/variables';
 @import 'base/animations';
 
+
 input {
     margin-top: 1rem;
 }
@@ -12,10 +13,11 @@ input {
 .promo {
     min-height: 650px;
     padding: 21px 0 93px 0;
-    background: url("../img/women.svg") center (center/cover) no-repeat;
+    background: url("../img/women.svg") center (center/cover) no-repeat ;
 }
 
 body {
+    box-sizing: border-box;
     background-color: darkorange;
 }
 
