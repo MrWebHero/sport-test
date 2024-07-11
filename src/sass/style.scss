@@ -5,6 +5,10 @@
 @import 'base/variables';
 @import 'base/animations';
 
+input {
+    margin-top: 1rem;
+}
+
 .promo {
     min-height: 650px;
     padding: 21px 0 93px 0;

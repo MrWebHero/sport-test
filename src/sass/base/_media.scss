@@ -1,10 +1,10 @@
-.carousel {
-  display: none;
-}
+// .carousel {
+//   display: none;
+// }
 
-.catalog {
-  display: none;
-}
+// .catalog {
+//   display: none;
+// }
 
 .feed {
   display: none;
@@ -44,6 +44,7 @@
       margin-left: 4rem;
     }
   }
+
 
 }
 
@@ -163,6 +164,21 @@
 
 
   @media (max-width:576px) {
+    .feed-form_mt25 {
+      width: 100%;
+
+    }
+
+    .button_submit {
+      width: 100%;
+      font-size: 70%;
+      height: 50%;
+    }
+
+    .lines {
+      height: 50%;
+    }
+
     .overlay {
       width: 5rem;
       height: 2rem;
@@ -180,6 +196,21 @@
       cursor: pointer;
     }
 
+    .modal {
+      padding-bottom: 0;
+      margin-left: 4rem;
+      margin-top: 4rem;
+      border-radius: 1rem;
+
+      &__subtitle {
+        font-size: 70%;
+      }
+
+      &__descr {
+        font-size: 70%;
+      }
+    }
+
     .promo {
       &__header {
         margin-left: 1rem;
@@ -194,6 +225,7 @@
       .button_main {
         padding: 0 0;
         width: 36%;
+        min-height: 2rem;
         font-size: 10px;
       }
 
@@ -212,6 +244,7 @@
       }
 
       input {
+        margin-top: 1rem;
         width: 90%;
         height: 100%;
       }
@@ -241,6 +274,15 @@
     // .button_submit {}
 
     @media (max-width:481px) {
+      .modal {
+        display: block;
+        height: 50%;
+        margin: 0;
+        margin-right: 15rem;
+        margin-top: 1rem;
+        padding-bottom: -2rem;
+      }
+
       .header {
         &__contacts {
           // margin-top: 2rem;
