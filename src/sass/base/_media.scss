@@ -156,11 +156,15 @@
     }
 
 
-
-
-
-
   }
+  .catalog {
+    &__tab {
+      width: 25%;
+      font-size: 50%;
+    }
+  }
+
+}
 
 
   @media (max-width:576px) {
@@ -391,4 +395,3 @@
 
   }
 
-}
